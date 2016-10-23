@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="aledgroup.soapwithretrofit.ui.views.MainActivity">
+
+    <EditText
+        android:id="@+id/etCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:hint="@string/city_name_hint"/>
+
+    <Button
+        android:id="@+id/btMakeRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCityName"
+        android:text="@string/make_request"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvElements"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btMakeRequest"/>
+
+</RelativeLayout>

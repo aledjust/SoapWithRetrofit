@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SoapWithRetrofit</string>
+    <string name="make_request">Request Data</string>
+    <string name="enter_city_name">Enter City Name</string>
+    <string name="request_error">ERROR Request Data</string>
+    <string name="dialog_title">Requesting</string>
+    <string name="dialog_message">Making Request. Please wait.</string>
+    <string name="city_name_hint">City Name</string>
+    <string name="item_state">(%s)</string>
+    <string name="item_area">Area: %s</string>
+    <string name="item_zip">Zip Code: %s</string>
+</resources>
